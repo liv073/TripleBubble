@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6E75A21BB24D9200B5F64A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E75A11BB24D9200B5F64A /* AppDelegate.swift */; };
+		1F6E75A41BB24D9200B5F64A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E75A31BB24D9200B5F64A /* GameScene.sks */; };
+		1F6E75A61BB24D9200B5F64A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E75A51BB24D9200B5F64A /* GameScene.swift */; };
+		1F6E75A81BB24D9200B5F64A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E75A71BB24D9200B5F64A /* GameViewController.swift */; };
+		1F6E75AB1BB24D9200B5F64A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E75A91BB24D9200B5F64A /* Main.storyboard */; };
+		1F6E75AD1BB24D9200B5F64A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E75AC1BB24D9200B5F64A /* Assets.xcassets */; };
+		1F6E75B01BB24D9200B5F64A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E75AE1BB24D9200B5F64A /* LaunchScreen.storyboard */; };
+		1F6E75BB1BB24D9200B5F64A /* TripleBubbleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E75BA1BB24D9200B5F64A /* TripleBubbleTests.swift */; };
+		1F6E75C61BB24D9200B5F64A /* TripleBubbleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E75C51BB24D9200B5F64A /* TripleBubbleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F6E75B71BB24D9200B5F64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6E75961BB24D9100B5F64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6E759D1BB24D9100B5F64A;
+			remoteInfo = TripleBubble;
+		};
+		1F6E75C21BB24D9200B5F64A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6E75961BB24D9100B5F64A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6E759D1BB24D9100B5F64A;
+			remoteInfo = TripleBubble;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6E759E1BB24D9200B5F64A /* TripleBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripleBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6E75A11BB24D9200B5F64A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F6E75A31BB24D9200B5F64A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		1F6E75A51BB24D9200B5F64A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		1F6E75A71BB24D9200B5F64A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1F6E75AA1BB24D9200B5F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F6E75AC1BB24D9200B5F64A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F6E75AF1BB24D9200B5F64A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F6E75B11BB24D9200B5F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6E75B61BB24D9200B5F64A /* TripleBubbleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleBubbleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6E75BA1BB24D9200B5F64A /* TripleBubbleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleBubbleTests.swift; sourceTree = "<group>"; };
+		1F6E75BC1BB24D9200B5F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6E75C11BB24D9200B5F64A /* TripleBubbleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripleBubbleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6E75C51BB24D9200B5F64A /* TripleBubbleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripleBubbleUITests.swift; sourceTree = "<group>"; };
+		1F6E75C71BB24D9200B5F64A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6E759B1BB24D9100B5F64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E75B31BB24D9200B5F64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E75BE1BB24D9200B5F64A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6E75951BB24D9100B5F64A = {
+			isa = PBXGroup;
+			children = (
+				1F6E75A01BB24D9200B5F64A /* TripleBubble */,
+				1F6E75B91BB24D9200B5F64A /* TripleBubbleTests */,
+				1F6E75C41BB24D9200B5F64A /* TripleBubbleUITests */,
+				1F6E759F1BB24D9200B5F64A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6E759F1BB24D9200B5F64A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E759E1BB24D9200B5F64A /* TripleBubble.app */,
+				1F6E75B61BB24D9200B5F64A /* TripleBubbleTests.xctest */,
+				1F6E75C11BB24D9200B5F64A /* TripleBubbleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6E75A01BB24D9200B5F64A /* TripleBubble */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E75A11BB24D9200B5F64A /* AppDelegate.swift */,
+				1F6E75A31BB24D9200B5F64A /* GameScene.sks */,
+				1F6E75A51BB24D9200B5F64A /* GameScene.swift */,
+				1F6E75A71BB24D9200B5F64A /* GameViewController.swift */,
+				1F6E75A91BB24D9200B5F64A /* Main.storyboard */,
+				1F6E75AC1BB24D9200B5F64A /* Assets.xcassets */,
+				1F6E75AE1BB24D9200B5F64A /* LaunchScreen.storyboard */,
+				1F6E75B11BB24D9200B5F64A /* Info.plist */,
+			);
+			path = TripleBubble;
+			sourceTree = "<group>";
+		};
+		1F6E75B91BB24D9200B5F64A /* TripleBubbleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E75BA1BB24D9200B5F64A /* TripleBubbleTests.swift */,
+				1F6E75BC1BB24D9200B5F64A /* Info.plist */,
+			);
+			path = TripleBubbleTests;
+			sourceTree = "<group>";
+		};
+		1F6E75C41BB24D9200B5F64A /* TripleBubbleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E75C51BB24D9200B5F64A /* TripleBubbleUITests.swift */,
+				1F6E75C71BB24D9200B5F64A /* Info.plist */,
+			);
+			path = TripleBubbleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F6E759D1BB24D9100B5F64A /* TripleBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6E75CA1BB24D9200B5F64A /* Build configuration list for PBXNativeTarget "TripleBubble" */;
+			buildPhases = (
+				1F6E759A1BB24D9100B5F64A /* Sources */,
+				1F6E759B1BB24D9100B5F64A /* Frameworks */,
+				1F6E759C1BB24D9100B5F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripleBubble;
+			productName = TripleBubble;
+			productReference = 1F6E759E1BB24D9200B5F64A /* TripleBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F6E75B51BB24D9200B5F64A /* TripleBubbleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6E75CD1BB24D9200B5F64A /* Build configuration list for PBXNativeTarget "TripleBubbleTests" */;
+			buildPhases = (
+				1F6E75B21BB24D9200B5F64A /* Sources */,
+				1F6E75B31BB24D9200B5F64A /* Frameworks */,
+				1F6E75B41BB24D9200B5F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6E75B81BB24D9200B5F64A /* PBXTargetDependency */,
+			);
+			name = TripleBubbleTests;
+			productName = TripleBubbleTests;
+			productReference = 1F6E75B61BB24D9200B5F64A /* TripleBubbleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6E75C01BB24D9200B5F64A /* TripleBubbleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6E75D01BB24D9200B5F64A /* Build configuration list for PBXNativeTarget "TripleBubbleUITests" */;
+			buildPhases = (
+				1F6E75BD1BB24D9200B5F64A /* Sources */,
+				1F6E75BE1BB24D9200B5F64A /* Frameworks */,
+				1F6E75BF1BB24D9200B5F64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6E75C31BB24D9200B5F64A /* PBXTargetDependency */,
+			);
+			name = TripleBubbleUITests;
+			productName = TripleBubbleUITests;
+			productReference = 1F6E75C11BB24D9200B5F64A /* TripleBubbleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6E75961BB24D9100B5F64A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = luoyixiao;
+				TargetAttributes = {
+					1F6E759D1BB24D9100B5F64A = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					1F6E75B51BB24D9200B5F64A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1F6E759D1BB24D9100B5F64A;
+					};
+					1F6E75C01BB24D9200B5F64A = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 1F6E759D1BB24D9100B5F64A;
+					};
+				};
+			};
+			buildConfigurationList = 1F6E75991BB24D9100B5F64A /* Build configuration list for PBXProject "TripleBubble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F6E75951BB24D9100B5F64A;
+			productRefGroup = 1F6E759F1BB24D9200B5F64A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6E759D1BB24D9100B5F64A /* TripleBubble */,
+				1F6E75B51BB24D9200B5F64A /* TripleBubbleTests */,
+				1F6E75C01BB24D9200B5F64A /* TripleBubbleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F6E759C1BB24D9100B5F64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6E75A41BB24D9200B5F64A /* GameScene.sks in Resources */,
+				1F6E75B01BB24D9200B5F64A /* LaunchScreen.storyboard in Resources */,
+				1F6E75AD1BB24D9200B5F64A /* Assets.xcassets in Resources */,
+				1F6E75AB1BB24D9200B5F64A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E75B41BB24D9200B5F64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E75BF1BB24D9200B5F64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6E759A1BB24D9100B5F64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6E75A61BB24D9200B5F64A /* GameScene.swift in Sources */,
+				1F6E75A81BB24D9200B5F64A /* GameViewController.swift in Sources */,
+				1F6E75A21BB24D9200B5F64A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E75B21BB24D9200B5F64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6E75BB1BB24D9200B5F64A /* TripleBubbleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E75BD1BB24D9200B5F64A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6E75C61BB24D9200B5F64A /* TripleBubbleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F6E75B81BB24D9200B5F64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6E759D1BB24D9100B5F64A /* TripleBubble */;
+			targetProxy = 1F6E75B71BB24D9200B5F64A /* PBXContainerItemProxy */;
+		};
+		1F6E75C31BB24D9200B5F64A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6E759D1BB24D9100B5F64A /* TripleBubble */;
+			targetProxy = 1F6E75C21BB24D9200B5F64A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F6E75A91BB24D9200B5F64A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6E75AA1BB24D9200B5F64A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F6E75AE1BB24D9200B5F64A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6E75AF1BB24D9200B5F64A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6E75C81BB24D9200B5F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F6E75C91BB24D9200B5F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6E75CB1BB24D9200B5F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripleBubble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyx.TripleBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F6E75CC1BB24D9200B5F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TripleBubble/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyx.TripleBubble;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F6E75CE1BB24D9200B5F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TripleBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyx.TripleBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleBubble.app/TripleBubble";
+			};
+			name = Debug;
+		};
+		1F6E75CF1BB24D9200B5F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TripleBubbleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyx.TripleBubbleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TripleBubble.app/TripleBubble";
+			};
+			name = Release;
+		};
+		1F6E75D11BB24D9200B5F64A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TripleBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyx.TripleBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripleBubble;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F6E75D21BB24D9200B5F64A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TripleBubbleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lyx.TripleBubbleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TripleBubble;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6E75991BB24D9100B5F64A /* Build configuration list for PBXProject "TripleBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6E75C81BB24D9200B5F64A /* Debug */,
+				1F6E75C91BB24D9200B5F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6E75CA1BB24D9200B5F64A /* Build configuration list for PBXNativeTarget "TripleBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6E75CB1BB24D9200B5F64A /* Debug */,
+				1F6E75CC1BB24D9200B5F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6E75CD1BB24D9200B5F64A /* Build configuration list for PBXNativeTarget "TripleBubbleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6E75CE1BB24D9200B5F64A /* Debug */,
+				1F6E75CF1BB24D9200B5F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F6E75D01BB24D9200B5F64A /* Build configuration list for PBXNativeTarget "TripleBubbleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6E75D11BB24D9200B5F64A /* Debug */,
+				1F6E75D21BB24D9200B5F64A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6E75961BB24D9100B5F64A /* Project object */;
+}
